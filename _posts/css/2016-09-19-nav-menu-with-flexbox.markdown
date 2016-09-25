@@ -18,14 +18,14 @@ First of all I'm gonna create the html for the menu. Let's say a nav tag with an
 
 ```html
 <body>
-	<nav>
-		<ul>
-			<li class="nav-item"><a href="#">Home</a></li>
-			<li class="nav-item"><a href="#">About</a></li>
-			<li class="nav-item"><a href="#">Services</a></li>
-			<li class="nav-item"><a href="#">Contact</a></li>
-		</ul>
-	</nav>
+<nav>
+    <ul>
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+    </ul>
+</nav>
 </body>
 ```
 
@@ -35,19 +35,19 @@ Then, because I want to display the links one after the other I'll use `display:
 
 ```
 html, body {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
-	background: #e3e3e3;
+    background: #e3e3e3;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
 }
 ```
 
@@ -56,12 +56,11 @@ In our example I'll use the first one because I want the links to be equaly dist
 
 ```
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	justify-content: space-around;
-	
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
 ```
 <img src="/images/flexbox/space-around.jpg" class="content-img">
@@ -70,11 +69,11 @@ But what about the others. If you change it to `justify-content: space-between;`
 
 ```
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
 ```
 <img src="/images/flexbox/space-between.jpg" class="content-img">
@@ -82,22 +81,22 @@ The `flex-start` and `flex-end` as you can imagine will drag the links to the st
 
 ```
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
 }
 ```
 <img src="/images/flexbox/flex-start.jpg" class="content-img">
 
 ```
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
 }
 ```
 <img src="/images/flexbox/flex-end.jpg" class="content-img">
@@ -105,39 +104,38 @@ The final css will look someting like this:
 
 ```
 html, body {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	font-size: 16px;
-	font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 nav {
-	background: #fff;
-	border-bottom: 1px solid #e3e3e3;
+    background: #fff;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-	justify-content: space-around;
-	
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
 
 .nav-item {
-	padding: 20px 0;
+    padding: 20px 0;
 }
 
 .nav-item a {
-	color: #FF5733;
-	text-decoration: none;
-	font-weight: bold;
+    color: #FF5733;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-item a:hover {
-	color: #C70039;
+    color: #C70039;
 }
 
 ```
