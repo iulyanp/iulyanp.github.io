@@ -1,9 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Welcome to iulyanp page</title>
-</head>
-<body>
-<h1>Hello world</h1>
-</body>
-</html>
+---
+layout: default
+---
+
+<header class="major">
+  <h2>{{ site.data.content.welcome_message }}</h2>
+</header>
+
+<p>{{ site.data.content.short_description }}</p>
+
+<section id="one">
+{% for post in site.posts limit:1 %}
+
+	{% include post-box.html %}
+
+{% endfor %}
+</section>
