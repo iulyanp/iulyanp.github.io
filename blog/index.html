@@ -1,0 +1,17 @@
+---
+layout: blog
+title: Blog
+---
+
+<!-- One -->
+<section id="one">
+{% for post in paginator.posts %}
+    {% include post-box.html %}
+{% endfor %}
+</section>
+
+{% include pagination.html %}
+
+<br>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

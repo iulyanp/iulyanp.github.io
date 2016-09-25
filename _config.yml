@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Iulian Popa - Software Developer
+email: iulyanpopa@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+     I love writing code and working on innovative projects.
+     
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://iulyanp.github.io" # the base hostname & protocol for your site
+twitter_username: iulyanpopa
+github_username:  iulyanp
+
+date_format: "%b %-d, %Y"
+
+# Plugins
+whitelist: []
+gems:
+  - jekyll-paginate
+
+# Build settings
+markdown:    kramdown
+highlighter: pygments
+# theme: minima
+
+# Serving
+detach:  false
+port:    8080
+host:    127.0.0.1
+
+# Outputting
+permalink: pretty
+paginate:  5
+paginate_path: "/blog/page-:num/"
+timezone:  Europe/Bucharest
+
+quiet:    false
+defaults: []
+
+include: ['_pages']
