@@ -11,7 +11,8 @@ icon: th
 
 
 Even I'm not working on frontend sometimes I like to take a pick in what's new and awesome on CSS.
-And these days seems like *flexbox* is the shining star on the stage.
+And these days seems like *flexbox* is the shining star on the stage because even flexbox it's out there from 2015, now
+you get [support](http://caniuse.com/#feat=flexbox) for it from almost all browsers.
 
 ### Why you should use flexbox?
 

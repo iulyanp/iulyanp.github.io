@@ -1764,8 +1764,13 @@
 	blockquote {
 		border-left: solid 6px #efefef;
 		font-style: italic;
+		font-size: 24px;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
+	}
+
+	blockquote p {
+		margin: 0;
 	}
 
 	code {
