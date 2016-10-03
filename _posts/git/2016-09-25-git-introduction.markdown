@@ -221,8 +221,8 @@ $ git pull origin master
 ```
 Now you can see you have also your friend code on your local computer and you can continue working.
 
-> Note! You'll find out soon that not all the time life it's that easy and sometimes you'll got conflicts in your files
-because you've worked locally and your friend had pushed his modifications on the same files you changed on your machine.
+> **Note!** You'll find out soon that not all the time life it's that easy and sometimes you'll get conflicts in your files
+because you've worked locally and your friend modified the same files you changed on your machine.
 In this situation, when you try to pull the changes on your computer, you'll see some *merge conflicts*.
 You have to solve every single conflict, take all the files that contain conflicts and fix them one by one.
 Then use `$ git add` and `$ git commit` to commit those solved conflicts, push the changes on Github and you're ready to
