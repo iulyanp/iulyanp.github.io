@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Git stash"
+slug: 'git-stash'
+date:   2016-10-25 12:01:06 +0300
+category: git
+tags: [git, branch, github, version control]
+icon: align-center
+---
+
+I'm sure you're having fun working on your project until your boss comes and tells you to that there is a bug on live and you have to fix it a.s.a.p.
+You will think, Oh crap! I'm half way through this functionality, I can't `commit` this now. What should I do?
+
+In this kind of situations there are a few things that you can do.
+
+### Not very good decision
+
+```
+# reset everything
+$ git reset HEAD --hard
+
+# clean all the un-tracked files
+$ git clean -fd
+```
+
+**Do not** reset what you worked on until now, this is a horrible decision. You spent hours working on that new feature and you are almost done with it. Will be a pain if you had to start it all over again.
+Maybe you would say, "No problem, I'm backing all my changes into another folder and fix the bug". But if you have to do this, then what's the point of using version control?
+There has to be a better way and actualy there is...
+
+### The best decision - Use `$ git stash`
+
+```
+$ git stash
+```
+
+This command will take all your modifications and move them into a separate area named `stash`. After doing this you can start working on the new bug-fix that you have to do, you create a branch (now you know how to do it, if you don't go back to my previous [post](git/2016/10/24/git-branch/)) and when you are ready you can merge it back. Then when you want to go back and work on the task that you worked when your boss came you can move your changes from the stash back to your working branch.
+
+
+```
+$ git stash apply
+```
+
+This command will move into your working branch the last stash you created. But sometimes you can have multiple stashes and maybe you want to get your changes from an older stash.
+
+```
+$ git stash apply stash@{2}
+```
+
+> Note! The command `$ git stash` will not stash the untracked files.
+
+To stash also the untracked files you have to use the `-u` flag.
+
+```
+$ git stash -u
+```
+
+After you use the apply command the stash is still in the stash list. You can check it by running:
+
+```
+$ git stash list
+```
+
+In order to remove the stash from the stash list you have to use `$ git stash drop stash@{1}`
+
+> Note! You can use `$ git stash pop` if you want to apply and remove the last stash you created.
+
+If you want to clean your stash you can use `$ git stash clean` and all your stashes will be removed.
+
+### Conclusions
+
+Forget about deleting your changes if you have an emergency to fix, the stash command is a good tool to have in your toolbox. I'm using it all the time and is buying me a lot of time when something needs to be fixed while I'm working on a new task.

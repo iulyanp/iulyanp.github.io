@@ -5,7 +5,7 @@ slug: 'what-is-composer'
 date:   2016-10-05 12:01:06 +0300
 categories: php
 tags: [composer, php, modern php]
-icon: composer
+icon: spinner
 ---
 
 Composer is from my point of view one of the most important actor when we're talking about a modern php application.
