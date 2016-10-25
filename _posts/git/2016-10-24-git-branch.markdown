@@ -14,7 +14,7 @@ All we have to do to is to create a branch, create commits to that new branch an
 
 ### What is a branch?
 
-Technically a branch is nothing else but a pointer to a specific commit. when you create a branch a pointer is created and every time you commit someting on that branch the pointer moves to the new commit. In other words a branch is used to group some commits.
+Technically a branch is nothing else but a pointer to a specific commit. When you create a branch a pointer is created and every time you commit something on that branch the pointer moves to the new commit. In other words a branch is used to group and isolate a bunch of commits.
 
 ### How to create a branch?
 
