@@ -8,10 +8,105 @@ short_description: >
     technology.
 
 long_description: >
-    <p>Hello, my name is Iulian (Pronuntiation: <a href="http://www.pronouncenames.com/pronounce/Iulian" target="_blank">Iulian</a>).</p>
-    <p>I am a young and ambitious Senior Web Developer graduated in 2014 at Al. I. Cuza University, with a master degree in Business Information Systems.</p>
-    <p>My focus is on building amazing web applications leveraging many open source technologies. I have experience in designing and optimizing databases, software engineering and software development.  Along the time, I have proven my abilities to quickly adapt to new projects and technologies.
+    <p>Hello, my name is <b>Iulian</b> (Pronuntiation: <a href="http://www.pronouncenames.com/pronounce/Iulian" target="_blank">Iulian</a>).</p>
+    <p>I am a young and ambitious <b>Senior Web Developer</b> graduated in 2014 at <b>Al. I. Cuza University</b>, with a master degree in Business Information Systems.</p>
+    <p>My focus is on building amazing web applications leveraging many open source technologies such as PHP, Symfony, Docker, Nginx, Doctrine and many others. 
+    I have experience in designing and optimizing databases, software engineering and software development.  Along the time, I have proven my abilities to quickly adapt to new projects and technologies.
     I always look to improve my software and project management skills because I like to be up-to-date with the latest technologies.</p>
     <p>Personaly I think programming is about writing code using your brain, that's why I take pride in every single line written. I also consider testing and code reviews to be an important area on every project.</p>
     <p>Currently I'm working as a technical lead/senior web developer, for a company that provides IT outsourcing and consulting services.</p>
     <p>Most of my work is related, in one way or another, with helping people understand and use technology to easily solve their problems.</p>
+    <p></p>
+
+technologies:
+  - area: "Programming Languages"
+    skills: 
+        - PHP
+        - JavaScript
+        - SQL
+        - HTML
+        - CSS
+
+  - area: "Testing"
+    skills: 
+        - PHPUnit
+        - Codeception
+
+  - area: "Javascript Frameworks"
+    skills: 
+        - VueJs
+        - AngularJs (1.x)
+        - Backbone
+
+  - area: "Web Frameworks"
+    skills: 
+        - Symfony(2.x, 3.x)
+        - Doctrine
+        - Laravel
+        - Zend Framework
+        - Codeigniter
+
+  - area: "Databases"
+    skills: 
+        - MySQL
+        - Postgres SQL
+        - MongoDB
+        - RDS
+
+  - area: "Server stuff"
+    skills: 
+        - Amazon Web Services
+        - Docker
+        - Ansible
+        - Vagrant
+        - Nginx
+        - MySQL
+
+  - area: "Source Code Control"
+    skills: 
+        - Git
+        - Github
+        - Bitbucket
+
+  - area: "Operating Systems"
+    skills: 
+        - Linux (Ubuntu, Debian, Alpine)
+        - Windows (XP/Vista/7)
+
+  - area: "Tools"
+    skills: 
+        - composer
+        - npm
+        - gulp
+        - bower
+        - grunt
+        - sass
+        - less
+
+  - area: "Miscellaneous"
+    skills: 
+        - Open Source
+        - Design patterns
+        - DDD
+        - CQRS
+        - Event sourcing
+        - Agile Web Development
+        - Scrum
+        - Jira
+        - Stripe
+        - ORM
+        - UML
+        - REST
+        - SOAP
+
+  - area: "IDEs"
+    skills: 
+        - PHPStorm
+
+  - area: "Content Management Systems"
+    skills: 
+        - Wordpress
+
+  - area: "Media Production Software"
+    skills: 
+        - Adobe Creative Suite (Photoshop, Illustrator)

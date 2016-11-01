@@ -6,4 +6,10 @@ permalink: /about/
 
 <div class="media">
 	<p>{{ site.data.content.long_description }}</p>
+	<h3>Languages and tools I love to use</h3>
+	<ul>
+		{% for tech in site.data.content.technologies %}
+			<li><b>{{ tech.area }}</b>: {{ tech.skills | join: ', '}}</li>
+		{% endfor %}
+	</ul>
 </div>
