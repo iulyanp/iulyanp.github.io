@@ -33,7 +33,7 @@ There has to be a better way and actualy there is...
 $ git stash
 ```
 
-This command will take all your modifications and move them into a separate area named `stash`. After doing this you can start working on the new bug-fix that you have to do, you create a branch (now you know how to do it, if you don't go back to my previous [post](git/2016/10/24/git-branch/)) and when you are ready you can merge it back. Then when you want to go back and work on the task that you worked when your boss came you can move your changes from the stash back to your working branch.
+This command will take all your modifications and move them into a separate area named `stash`. After doing this you can start working on the new bug-fix that you have to do, you create a branch (now you know how to do it, if you don't go back to my previous [post](/git/2016/10/24/git-branch/)) and when you are ready you can merge it back. Then when you want to go back and work on the task that you worked when your boss came you can move your changes from the stash back to your working branch.
 
 
 ```
