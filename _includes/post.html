@@ -1,14 +1,16 @@
 <div class="post">
-  <h1 class="post-title"><i class="fa fa-{{ page.icon | default: circle }}"></i> {{ page.title }}</h1>
-  <span>
-    <span class="post-date" style="display:inline-block;">{{ page.date | date: site.date_format }}</span> |
-    
-    {% for tag in page.tags %}
-      <a href="/blog/tag/#{{ tag | slugify }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
-    {% endfor %}
-  </span>
+	<h1 class="post-title"><i class="fa fa-{{ page.icon | default: circle }}"></i> {{ page.title }}</h1>
+	<span>
+	<span class="post-date" style="display:inline-block;">{{ page.date | date: site.date_format }}</span> |
 
-  <p>{{ content }}</p>
+	{% for tag in page.tags %}
+	  <a href="/blog/tag/#{{ tag | slugify }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
+	{% endfor %}
+	</span>
 
+	<p>{{ content }}</p>
+
+	<br> 
+	<p>If you liked this post, you can share it on <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>. Also you can follow me on <a href="{{ site.data.social.github }}" target="_blank"><i class="fa fa-github"></i> Github</a> or endorse me on <a href="{{ site.data.social.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a>.</p>
 </div>
 
