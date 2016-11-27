@@ -1,11 +1,15 @@
 <!-- Header -->
 <header id="header">
+	<nav class="navigation">
+		<a class="nav-button" href="#">&nbsp;</a>
+	</nav>
+
 	<div class="inner">
-		<a href="{{ site.baseurl }}" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+		<!-- <a href="{{ site.baseurl }}" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a> -->
 		<h1><strong>{{ site.data.owner.fullname }}</strong>, {{ site.data.owner.profession }}<br />
 		{{ site.data.content.abstract }}<br />
 		</h1>
 	</div>
-		
+	
 	{% include menu.html %}
 </header>
