@@ -8,9 +8,9 @@ short_description: >
     Information Systems</a>.
     <br>
     Day by day I'm working with <a href="http://php.net" target="_blank">PHP</a> and <a href="http://symfony.com" target="_blank">Symfony framework</a> but
-    along the time I've got also in contact with other popular frameworks such as Laravel, Zend or Codeigniter.
+    over the last years I've got also in contact with other popular frameworks such as Laravel, Zend or Codeigniter.
     <br>
-    With over <b>5 years experience</b> in this field, I'm enjoying helping people achieve their goals through the use of technology.
+    With more than <b>5 years experience</b> in this field, I'm enjoying helping people achieve their goals through the use of technology.
 
     </p>
 
@@ -21,12 +21,14 @@ long_description: >
     <p>My focus is on building amazing web applications leveraging many open source technologies such as PHP, Symfony, Docker, Nginx, Doctrine 
     and many others. 
     I have experience in designing and optimizing databases, software engineering and software development.  
-    Along the time, I have proven my abilities to quickly adapt to new projects and technologies.
+    Along the time, I have proved my abilities to quickly adapt to new projects and technologies.
     I'm always looking to improve my software and project management skills because I like to be up-to-date with the latest technologies.</p>
     <p>Personaly I think programming is about writing code using your brain, that's why I take pride in every single line written. 
     I also consider testing and code reviews to be important areas on every project.</p>
     <p>Currently I'm working as a technical lead/senior web developer, for a company that provides IT outsourcing and consulting services.</p>
     <p>Most of my work is related, in one way or another, with helping people understand and use technology to easily solve their problems.</p>
+    <p>If you're searching for someone who can help you with your interesting project don't hesitate to send me an e-mail,
+    I'll be happy to discuss more.</p>
     
 technologies:
   - area: "Programming Languages"
@@ -36,6 +38,14 @@ technologies:
         - SQL
         - HTML
         - CSS
+
+  - area: "Web Frameworks"
+    skills:
+        - Symfony(2.x, 3.x)
+        - Doctrine
+        - Laravel
+        - Zend Framework
+        - Codeigniter
 
   - area: "Testing"
     skills: 
@@ -47,14 +57,6 @@ technologies:
         - VueJs
         - AngularJs (1.x)
         - Backbone
-
-  - area: "Web Frameworks"
-    skills: 
-        - Symfony(2.x, 3.x)
-        - Doctrine
-        - Laravel
-        - Zend Framework
-        - Codeigniter
 
   - area: "Databases"
     skills: 
