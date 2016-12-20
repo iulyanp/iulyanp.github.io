@@ -27,7 +27,7 @@ The `none` network is used to add a container to a container specific network st
 
 You don't need to interact with these two default networks. You can list them and inspect them but you can not remove
 them. Because you can create your own networks and use them to connect and make containers communicate to each other I
-it's worth to take a look on the default `bridge` network to see how it works.
+think it's worth to take a look on the default `bridge` network to see how it works.
 
 ### Default bridge network
 
