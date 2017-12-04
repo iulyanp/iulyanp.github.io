@@ -117,7 +117,7 @@ Then you can execute encore like `$ npm run dev` for development or `$ npm run p
 
 At first, because you are trying to compile `sass` file it will fail and ask you to install `sass-loader` and `node-sass`.
 
-After Encore will compile your files and you will see in the `web/build/` directory all the generated files. You will
+After Encore will compile your files you can find in the `web/build/` directory all the generated files. You will
 have an `app.js` file, next there will be a `global.css` file and also you will see the `manifest.json` which contains
 the real name for each asset. This is very useful when you'll use versioning with Encore, will explain more later.
 
