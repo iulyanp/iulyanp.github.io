@@ -115,7 +115,7 @@ Because sometimes I'm lazy I like to set those commands in the `package.json`:
 
 Then you can execute encore like `$ npm run dev` for development or `$ npm run prod` for production.
 
-At first, because you are trying to compule `sass` file it will fail and ask you to install `sass-loader` and `node-sass`.
+At first, because you are trying to compile `sass` file it will fail and ask you to install `sass-loader` and `node-sass`.
 
 After Encore will compile your files and you will see in the `web/build/` directory all the generated files. You will
 have an `app.js` file, next there will be a `global.css` file and also you will see the `manifest.json` which contains
