@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Welcome 2018, goodbye 2017..."
+slug: 'welcome-2018-goodbye-2017'
+date:   2018-01-01 17:00:00 +0300
+categories: [personal]
+tags: [personal]
+icon: pencil
+---
+
+Today is the first day of the brand new year and I felt it is time to come back here and start writing.
+I would like to do a short retrospective of the year that just finished.
+
+### Welcome 2018, goodbye 2017...
+
+For me 2017 was a really full year, with all kinds of stuff, good and bad, ups and downs. And I'm very glad about all of them, I had many things to learn and I believe *2017 was the year of changes"*.
+It started with a change for me, because in January I changed my job. After almost 3 years that I've spent in a company where I've felt like home, I made a new step forward and went to the biggest e-commerce platform in Romania, [eMAG](https://emag.ro). I was very excited about working on such a big and known project and like any new job, I was expecting some new challenges and opportunities.
+
+Here I had the chance to go deeper into Hexagonal Architecture and help my team apply it, trying to rewrite the core of the project. Because at the beginning everybody is a little reluctant to change, I tried to make a smooth workflow for my team and I built an hexagonal module generator that we use on our development workflow.
+
+One other nice thing I did in 2017 was that I participated at the first edition of Laracon Online, an online conference from Laravel community.
+Even that I'm mostly using [Symfony](http://symfony.com) in my day to day job, I really like what [Laravel](https://laravel.com) does and I'm following all the guys that were speakers on Laracon. I always liked Jeffrey Way and because he does an amazing job with [Laracast](http://laracasts.com) I ended up following everybody for the past years.
+I already bought my ticket for the [second edition](https://laracon.net/#the-schedule) of Laracon Online that will be on 7 February this year. I'm looking forward to it.
+
+After Jeffrey Way created [Laravel Mix](https://laravel.com/docs/5.5/mix), I also wanted to use it on symfony projects and I created a small symfony bundle, [elixir-mix-bundle](https://packagist.org/packages/iulyanp/elixir-mix-bundle) that helps configure it on symfony projects. After a few months, [Symfony Encore was created by Ryan Weaver](https://iulyanp.github.io/symfony/2017/06/18/symfony-encore/) which is inspired by Mix.
+
+The summer of 2017 changed some things in my team and soon I took the lead of it, 6 Developers and 1 QA. We made changes on our workflow and we're also learning how to be a team.
+
+Also I had an amazing holiday with my friends this year. We went to the Greek island of Crete where we spent one of the most beautiful week on the most beautiful beaches I have ever seen.
+<img src="/images/holiday/crete-1.jpg" alt="Crete" width="100%"/>
+<img src="/images/holiday/crete-2.jpg" alt="Crete" width="100%"/>
+
+Because I already had the knowledge about the subject, this brought me the opportunity to participate for the first time as a speaker at a Conference where together with, [Leo Mocanu](http://mocanu.me/) one of my colleagues, we've talked about Hexagonal Architecture at [CodeCamp Iasi 2017](https://codecamp.ro/archive/20171028-Iasi/index.html).
+
+<img src="/images/conferences/on-stage.jpeg" alt="Hexagonal Architecture presentation at CodeCamp Iasi 2017" width="100%"/>
+
+On [17 November, SymfonyCon 2017](https://clujcon2017.symfony.com/) was organised in one of the beautiful cities from Romania, **Cluj** and I couldn't missed it.
+Although on that date the company I’m working for, had the “Black Frieday” event, I bought my ticket to the conference.
+Finally, I met all the guys from Symfony community in person and I had the chance to thank them for the great job they’re doing.
+I enjoyed the talks of [Fabien Potencier](https://speakerdeck.com/fabpot/flex),
+[Nicolas Gerka](https://speakerdeck.com/nicolasgrekas/dependency-injection-component-v4-dot-0-symfonycon-cluj-2017),
+[Carlos Buenosvinos](https://www.slideshare.net/carlosbuenosvinos/a-journey-from-hexagonal-architecture-to-event-sourcing-symfonycon-cluj-2017)
+and [Ryan Weaver](https://www.slideshare.net/weaverryan/webpack-encore-symfony-live-2017-san-francisco) but also
+[Jordi Boggiano](http://slides.seld.be/?file=2017-11-16+Lessons+Learned+Building+the+Composer+Internals.html#1),
+[Anna Filina](https://speakerdeck.com/afilina/doctrine-performance-optimization) and Sara Golemon.
+This conference was important for the Symfony community because of the new major release of
+[Symfony 4](https://symfony.com/blog/symfony-4-0-0-released) which brings a new way to develop applications with Symfony Framework.
+
+<img src="/images/conferences/symfonycon.jpg" alt="SymfonyCon 2017 Cluj" width="100%"/>
+
+The year ended with a new project I've started together with one of my friends and I'm really confident that 2018 will be even more productive.
