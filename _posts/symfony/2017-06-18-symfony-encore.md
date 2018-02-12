@@ -249,7 +249,7 @@ Encore
     })
 
 // For Encore v0.15.0 you have to pass as a first parameter a closure that receives an options parameter and 
-as a second parameter the object with `resolveUrlLoader` option:
+// as a second parameter the object with `resolveUrlLoader` option:
 
 Encore
     .enableSassLoader(function(options) {
