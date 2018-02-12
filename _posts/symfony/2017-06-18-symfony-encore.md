@@ -207,7 +207,8 @@ framework:
 
 ## The Twig asset() function
 
-That's how it works, just be sure to use Twig {{ asset() }} function when you want to load js or css files.
+That's how it works, just be sure to use Twig {% raw %}{{ asset() }}{% endraw %} function when you want to load js or 
+css files.
 
 {% raw %}
 ```
@@ -225,7 +226,7 @@ always should use it because it will make it a lot easier when you decide to add
 I know many projects are using bootstrap so here's how it works with Encore. First install `bootstrap-sass`:
 
 ```
-$ npm install bootstra-sass --dev
+$ npm install bootstrap-sass --dev
 ```
 
 ### Import Bootstrap from sass
@@ -239,12 +240,22 @@ javascript files.
 ```
 
 After you include bootstrap-sass the Webpack builds might become slower but you can fix that with `resolve_url_loader`
-oprion:
+option:
 
 ```
 Encore
     .enableSassLoader({
         resolve_url_loader: false
+    })
+
+// For Encore v0.15.0 you have to pass as a first parameter a closure that receives an options parameter and 
+as a second parameter the object with `resolveUrlLoader` option:
+
+Encore
+    .enableSassLoader(function(options) {
+        // options.includePaths = [...]
+    }, {
+        resolveUrlLoader: false
     })
 ```
 
