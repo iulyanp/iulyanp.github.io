@@ -2197,7 +2197,7 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    color: #c0a391;
+    color: #a47a60;
     text-decoration: none;
 }
 
@@ -3062,8 +3062,8 @@ input[type="submit"].special:active,
 input[type="reset"].special:active,
 input[type="button"].special:active,
 .button.special:active {
-    background-color: #3eb08f;
-    border-color: #3eb08f;
+    background-color: #c0a391;
+    border-color: #c0a391;
 }
 
 input[type="submit"].disabled,
@@ -4017,4 +4017,32 @@ body.is-menu-visible #menu .inner {
         padding-left: 0;
     }
 
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li.active a {
+    background-color: #c0a391;
+    color: white;
+}
+
+ul.pagination li a:hover {
+    background-color: #c0a391;
+    color: white !important;
 }
