@@ -51,7 +51,7 @@ OK (21 tests, 46 assertions)
 
 #### What happened?
 
-- downloaded the `php:7.2` docker image
+- downloaded the `php:7.0` docker image
 - started a container from that image
 - mapped the current folder into the `/var/www` directory `-v $(pwd):/var/www`
 - made the `/var/www` directory the current one in the container `-w /var/www`
