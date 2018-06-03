@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Docker networks"
+description: 'How to work with docker networks'
 slug: 'docker-networks'
 date: '2016-12-18 12:00:00 +0300'
 categories: docker

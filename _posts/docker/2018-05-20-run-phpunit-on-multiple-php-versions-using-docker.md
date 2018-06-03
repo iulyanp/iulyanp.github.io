@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Run PHPUnit on multiple PHP versions using Docker"
+description: 'Flexible way to run unit tests with docker on multiple php versions'
 slug: 'run-phpunit-on-multiple-php-versions-using-docker'
 date:  2018-05-20 09:00:00 +0300
 category: docker

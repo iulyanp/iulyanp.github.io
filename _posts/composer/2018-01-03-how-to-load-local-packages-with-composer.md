@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to properly load local dependencies with composer"
+description: 'How to work on applications with local packages and composer'
 slug: 'how-to-properly-load-local-dependencies-with-composer'
 date:  2018-1-3 19:00:00 +0300
 category: composer

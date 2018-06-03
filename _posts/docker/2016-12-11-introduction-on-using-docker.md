@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introduction on using Docker for development"
+description: 'Basic commands to start with docker'
 slug: 'introduction-on-using-docker'
 date: '2016-12-11 09:00:00 +0300'
 categories: docker

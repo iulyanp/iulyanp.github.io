@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is composer and how to use it?"
+description: 'Basics of composer for newcomers'
 slug: 'what-is-composer'
 date:   2016-10-05 12:01:06 +0300
 categories: php

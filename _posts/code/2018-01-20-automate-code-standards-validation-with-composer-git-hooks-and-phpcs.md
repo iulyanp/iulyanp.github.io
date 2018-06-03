@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Automate code standards validation with Composer, Git Hooks and PHPCodeSniffer"
+description: 'You will learn how to automatically enforce coding standards with composer, git hooks and phpcs'
 slug: 'automate-code-standards-validation-with-composer-git-hooks-and-phpcs'
 date:  2018-01-21 13:00:00 +0300
 category: clean-code

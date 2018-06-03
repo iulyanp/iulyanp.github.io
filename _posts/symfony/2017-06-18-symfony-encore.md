@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Compile your assets with Symfony Encore"
+description: 'How to compile assets with Symfony Encore and Webpack'
 slug: 'symfony-encore'
 date:   2017-06-18 12:01:06 +0300
 category: symfony

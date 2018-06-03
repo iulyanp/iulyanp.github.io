@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to configure New relic agent on Docker"
+description: 'The easiest way to use NewRelic agent with Docker'
 slug: 'how-to-configure-newrelic-on-docker'
 date: '2016-11-21 12:01:06 +0300'
 categories: docker

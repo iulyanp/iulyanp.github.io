@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Docker volumes"
+description: 'How to work with docker volumes'
 slug: 'docker-volume'
 date: '2016-12-17 12:00:00 +0300'
 categories: docker
