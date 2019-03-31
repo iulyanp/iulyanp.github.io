@@ -4,19 +4,16 @@ short_description: >
     <p>
 
       <br>
-      I am a young and ambitious <b>Software Developer</b> with over 7 years experience, focused on backend
+      I am a young and ambitious <b>Software Developer</b> with more than <b>7 years experience</b> focused on backend
       development, building amazing web applications, leveraging many open source technologies such as PHP, Symfony,
       Docker, Nginx, Doctrine and many others.
       <br>
-      I am addicted to <a href="http://php.net" target="_blank">PHP</a>, <a href="http://symfony.com"
-      target="_blank">Symfony</a> and
-      <a href="http://docker.com" target="_blank">Docker</a> with a passion for open source community, clean code,
-      design patterns, software architecture and other nerdy things.
-      <br>
-      With more than <b>7 years experience</b> in this field, I'm enjoying helping people achieve their
-      goals through the use of technology.
+      
+      I am a big fan of design patterns, SOLID principles, PSR coding standards, DDD, KISS, DRY & YAGNI concepts
+      and I really enjoy building scalable and maintainable applications.
+
     </p>
-    <h3>Hire me</h3>
+    <h3><i class="fa fa-at"></i> Hire me</h3>
     <p>
       Wheather you just need some extra technical expertise or someone to help with your project, I'm here to help. <br>
       I'm <a href="mailto:iulyanpopa@gmail.com" title="Hire Iulian Popa as a freelancer">available for hire</a> on PHP
