@@ -22,7 +22,7 @@ Software Architecture, Project Management and more.
 <img src="https://pbs.twimg.com/media/DNevQI3XkAAjkQs.jpg" width="100%">
 
 Together with Leonard Mocanu, which is also part of eMAG Tech Team, I had the chance to talk for the first time in
-front of a nice audience, from enthusiastic students to senior IT professionals, and share their knowledge on a
+front of a nice audience, from enthusiastic students to senior IT professionals, and share my knowledge on a
 **"delicious subject"**: *Hexagonal Architecture - Turn spaghetti code into lasagna*.
 
 Hexagonal Architecture helped us to restructure our application and we wanted to give something back to the community
