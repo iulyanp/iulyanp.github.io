@@ -16,7 +16,7 @@ versions.
 ### Prepare the application
 
 For this example I will use a package build on top of [Respect Validation](https://github.com/Respect/Validation) 
-validator called [flex-validator](git@github.com:iulyanp/flex-validator.git) which offers a simpler interface to 
+validator called [flex-validator](https://github.com/iulyanp/flex-validator) which offers a simpler interface to 
 validate multiple inputs together and return all the errors at once.
 
 We will clone the repository, install all it's dependencies and finally run all it's tests on 7.0 and 7.2 versions of
