@@ -1,8 +1,6 @@
 <div class="post">
 	<h1 class="post-title"><i class="fa fa-{{ page.icon | default: circle }}"></i> {{ page.title }}</h1>
 	<span>
-	<span class="post-date" style="display:inline-block;">{{ page.date | date: site.date_format }}</span> |
-
 	{% for tag in page.tags %}
 	  <a href="/blog/tag/#{{ tag | slugify }}" class="tag"><i class="fa fa-tag"></i> {{ tag }}</a>
 	{% endfor %}

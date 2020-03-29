@@ -38,7 +38,7 @@ highlighter: rouge
 
 # Serving
 detach:  false
-port:    8000
+port:    8005
 host:    127.0.0.1
 
 # Outputting

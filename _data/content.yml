@@ -4,7 +4,7 @@ short_description: >
     <p>
 
       <br>
-      I am a young and ambitious <b>Software Developer</b> with more than <b>8 years experience</b> focused on backend
+      I am a young and ambitious <b>Software Developer</b> with more than <b>10 years experience</b> focused on backend
       development, building amazing web applications, leveraging many open source technologies such as PHP, Symfony,
       Docker, Nginx, Doctrine and many others.
       <br>
@@ -23,7 +23,7 @@ short_description: >
 long_description: >
     <p>Hello, my name is <b>Iulian</b> (Pronuntiation: <a href="http://www.pronouncenames.com/pronounce/Iulian" target="_blank">Iulian</a>).</p>
     <p>
-      I am a young and ambitious <b>Software Developer</b> with over 7 years experience, focused on backend
+      I am a young and ambitious <b>Software Developer</b> with over 10 years experience, focused on backend
       development, building amazing web applications, leveraging many open source technologies such as PHP, Symfony,
       Docker, Nginx, Doctrine and many others.
     </p>
@@ -81,7 +81,6 @@ technologies:
   - area: "Javascript Frameworks"
     skills: 
         - VueJs
-        - AngularJs (1.x)
 
   - area: "Databases"
     skills: 
