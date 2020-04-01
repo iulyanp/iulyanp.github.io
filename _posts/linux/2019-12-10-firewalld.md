@@ -4,7 +4,7 @@ title:  "Use firewalld-cmd to manage your firewall"
 slug: 'firewalld-cmd'
 date:   2019-06-14 12:01:06 +0300
 category: linux
-tags: [linux, tail, less, logs]
+tags: [linux, firewall, firewalld, iptables]
 icon: angle-right
 ---
 
@@ -149,7 +149,7 @@ You can check the list of ports that are open on your system.
 # firewall-cmd --list-ports
 ```
 
-1. To Enable all the incoming ports for a service
+3. To Enable all the incoming ports for a service
 
 You can also open the required ports for a service by using the `-–add-service option`. 
 Let's give access by HTTP clients for the public zone.
