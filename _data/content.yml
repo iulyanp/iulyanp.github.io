@@ -2,11 +2,12 @@ abstract: Be wise and think different
 welcome_message: I develop experiences that make people's lives simple.
 short_description: >
     <p>
+      <b>I help medium to large businesses boost their online sales.</b>
 
       <br>
       I am a young and ambitious <b>Software Developer</b> with more than <b>10 years experience</b> focused on backend
-      development, building amazing web applications, leveraging many open source technologies such as PHP, Symfony,
-      Docker, Nginx, Doctrine and many others.
+      development, building amazing web applications, leveraging many open source technologies such as PHP, Laravel, Symfony,
+      Docker, Nginx, Doctrine and many more.
       <br>
       
       I am a big fan of design patterns, SOLID principles, PSR coding standards, DDD, KISS, DRY & YAGNI concepts
@@ -15,14 +16,14 @@ short_description: >
     </p>
     <h3><i class="fa fa-at"></i> Hire me</h3>
     <p>
-      Wheather you just need some extra technical expertise or someone to help you with planning, designing, developing and maintaining high-quality PHP and web-based projects, I'm here to help. <br>
+      Wheather you just need some extra technical expertise or someone to help you with planning, designing, developing and maintaining high-quality web applications, I'm here to help. <br>
       <br>
       <a href="mailto:iulyanpopa@gmail.com" class="button special" title="Hire Iulian Popa Software Engineer">Let's get in touch!</a>
     </p>
 
 long_description: >
     <p>Hello, my name is <b>Iulian</b> (Pronuntiation: <a href="http://www.pronouncenames.com/pronounce/Iulian" target="_blank">Iulian</a>).</p>
-    <p>
+    <p>g
       I am a young and ambitious <b>Software Developer</b> with over 10 years experience, focused on backend
       development, building amazing web applications, leveraging many open source technologies such as PHP, Symfony,
       Docker, Nginx, Doctrine and many others.
