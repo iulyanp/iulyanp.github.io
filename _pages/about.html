@@ -1,10 +1,9 @@
 --- layout: page title: 'About myself' permalink: /about ---
 
 <div class="media">
-    <img class="image fit thumb" src="./images/illustration-3.svg" alt="">
     <p>{{ site.data.content.long_description }}</p>
     <h2>Languages and tools I love to use</h2>
-    <img class="image fit thumb" src="./images/illustration-4.svg" alt="">
+    <img class="image fit thumb" src="./images/illustration-3.svg" alt="">
     <ul>
         {% for tech in site.data.content.technologies %}
         <li><b>{{ tech.area }}</b>: {{ tech.skills | join: ', '}}</li>
