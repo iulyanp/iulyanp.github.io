@@ -2552,7 +2552,7 @@ input[type="button"]:disabled,
     -webkit-flex-grow: 1;
     -ms-flex-grow: 1;
     flex-grow: 1;
-    margin: 30em 0 4em 0;
+    margin: 25rem 0 4rem 0;
 }
 
 #header strong,
