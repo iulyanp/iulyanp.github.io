@@ -8,8 +8,6 @@ tags: [mysql, backup, cronjob]
 icon: table
 ---
 
-# Backup MySQL Database
-
 I recommend that you set up a backup for any database that you have. This guarantees your production data will be safe and you don't loose data in case of a desaster. Below, I've sketched out easy process of setting up a backup with regular data dumps.
 
 ## Create the backup
