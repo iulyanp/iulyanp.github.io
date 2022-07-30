@@ -36,7 +36,7 @@ To see if the php-fpm process is running on Centos you can use `sudo systemctl s
 ```
 
 You can reload the php-fpm process just by running `sudo /bin/systemctl reload php-fpm`.
-You can find out what systemd reload nginx will do by looking at the ExecReload= option in the [Service] section in the nginx.service unit file.
+You can find out what systemd reload php-fpm will do by looking at the ExecReload= option in the [Service] section in the php-fpm.service unit file.
 
 ```ini
 [Unit]
