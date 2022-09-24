@@ -10,7 +10,7 @@ icon: table
 
 This tutorial will show you how to set up a new MySQL account as a super user with privileged access to the databases.
 
-1. You must first log in as the root user, who has access to the CREATE USER capability.
+### You must first log in as the root user, who has access to the CREATE USER capability.
 
 To create a new user with a password, enter the following command:
 
@@ -29,7 +29,7 @@ The new user currently has no access rights to the databases. The new user's pri
 - UPDATE - update table rows using UPDATE
 - GRANT OPTION: Add or remove rights for other users.
 
-2. Create a superuser.
+### Create a superuser.
 
 We must provide this new user complete root access to the whole database in order to transform it into a superuser, which entails GRANTING ALL PRIVILEGES:
 
@@ -40,7 +40,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'johndoe'@'localhost' WITH GRANT OPTION;
 The new user now has root-like permission, therefore the work is complete.
 
 
-3. Then make a second account with an identical username and grant it full root access:
+### Then make a second account with an identical username and grant it full root access:
 
 ```
 CREATE USER 'johndoe'@'%' IDENTIFIED BY 'secret_pass';
@@ -52,13 +52,13 @@ Both superuser accounts "johndoe"@"localhost" and "johndoe"@"%" have full contro
 
 It is only possible to connect using the 'johndoe'@'localhost' account from a local host. The account "johndoe"@"%" employs the wildcard "%" in the host part, allowing connections from any host.
 
-4. Use the SHOW GRANTS command to confirm the permissions granted to the new user:
+### Use the SHOW GRANTS command to confirm the permissions granted to the new user:
 
 ```
 SHOW GRANTS FOR johndoe;
 ```
 
-5. Reload all the privileges once everything is in order and each adjustment to the users will become effective right away.
+### Reload all the privileges once everything is in order and each adjustment to the users will become effective right away.
 
 ```
 FLUSH PRIVILEGES;
