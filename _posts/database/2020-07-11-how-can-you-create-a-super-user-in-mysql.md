@@ -20,15 +20,14 @@ CREATE USER 'johndoe'@'localhost' IDENTIFIED BY 'secret_pass';
 
 The new user currently has no access rights to the databases. The new user's privileges must then be granted, which comes next. The following privileges are available to users:
 
-ALL PRIVILEGES - gives complete root access to the databases, if no database is specified, will have global access to it.
-
-CREATE – build new databases or tables
-DROP - remove databases or tables
-DELETE - remove rows from tables 
-INSERT - adding rows to tables
-SELECT - to browse databases, use the SELECT command.
-UPDATE - update table rows using UPDATE
-GRANT OPTION: Add or remove rights for other users.
+- ALL PRIVILEGES - gives complete root access to the databases, if no database is specified, will have global access to it.
+- CREATE – build new databases or tables
+- DROP - remove databases or tables
+- DELETE - remove rows from tables 
+- INSERT - adding rows to tables
+- SELECT - to browse databases, use the SELECT command.
+- UPDATE - update table rows using UPDATE
+- GRANT OPTION: Add or remove rights for other users.
 
 2. Create a superuser.
 
