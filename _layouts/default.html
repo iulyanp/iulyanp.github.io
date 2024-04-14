@@ -12,7 +12,7 @@
 	<link rel="manifest" href="/images/site.webmanifest">
 	<meta name="theme-color" content="#ffffff">
 
-	<meta name="title" content="{{ page.title }}" />
+	<meta name="title" content="{% assign title = page.title | append: ' - ' | append: site.title %}{{ page.title }}" />
 	<meta name="description" content="{{ page.description }}" />
 	<link rel="canonical" href="{{ site.url | append: page.url }}" />
 
