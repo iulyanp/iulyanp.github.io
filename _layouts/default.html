@@ -12,7 +12,7 @@
 	<link rel="manifest" href="/images/site.webmanifest">
 	<meta name="theme-color" content="#ffffff">
 
-	<meta name="title" content="{% assign title = page.title | append: ' - ' | append: site.title %}{{ page.title }}" />
+	<meta name="title" content="{{ page.title }}" />
 	<meta name="description" content="{{ page.description }}" />
 	<link rel="canonical" href="{{ site.url | append: page.url }}" />
 
@@ -21,6 +21,23 @@
 	<link rel="stylesheet" href="/assets/css/main.css" />
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/androidstudio.min.css">
 	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="/images/avatar.jpg">
+	<meta name="twitter:site" content="@{{ site.twitter_username }}">
+	<meta name="twitter:creator" content="@{{ site.twitter_username }}">
+	<meta name="twitter:title" content="{{ site.title }}">
+	<meta name="twitter:url" content="{{ site.url }}">
+	<meta name="twitter:description" content="{{ page.description }}">
+	<meta content="{{ site.title }}" property="og:site_name">
+	<meta content="{{ page.title }}" property="og:title">
+	<meta content="article" property="og:type">
+	<meta content="{{ page.description }}" property="og:description">
+	<meta content="{{ site.url }}" property="og:url">
+	<meta content="https://twitter.com/{{ site.twitter_username }}" property="article:author">
+	<meta content="/images/avatar.jpg" property="og:image">
+
 </head>
 <body>
 	{% include header.html %}
