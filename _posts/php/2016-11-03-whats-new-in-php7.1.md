@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Whats new in PHP 7.1"
+title:  "Whats new in PHP 7.1?"
+description: 'Whats new in PHP 7.1?'
 slug: 'whats-new-in-php7.1'
 date:   2016-11-03 12:01:06 +0300
 categories: php

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How can you create a superuser in MySQL?"
+description: 'How can you create a superuser in MySQL?'
 slug: 'how-can-you-create-a-super-user-in-mysql'
 date: 2020-07-11 08:02:00 +0300
 category: database

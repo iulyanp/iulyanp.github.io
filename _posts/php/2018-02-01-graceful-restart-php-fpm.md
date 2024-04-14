@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Graceful restart php-fpm"
+description: 'Graceful restart php-fpm'
 slug: 'graceful-restart-php-fpm'
 date:   2018-02-01 12:01:06 +0300
 categories: php

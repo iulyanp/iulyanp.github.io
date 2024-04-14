@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git branch"
+description: 'Introduction to git brancing'
 slug: 'git-branch'
 date:   2016-10-24 12:01:06 +0300
 category: git

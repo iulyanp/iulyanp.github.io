@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Understanding shell script redirect output"
+description: 'Understand shell script redirect output'
 slug: 'understanding-shell-script-redirect-output'
 date:   2019-06-06 12:01:06 +0300
 category: linux

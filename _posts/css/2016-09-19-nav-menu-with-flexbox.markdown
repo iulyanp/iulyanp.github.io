@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Navigation menu with flexbox"
+description: 'Build a basic navbar with flexbox'
 slug: 'navigation-menu-flexbox'
 date:   2016-09-19 12:01:06 +0300
 categories: flexbox

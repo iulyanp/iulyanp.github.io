@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Git introduction"
+description: 'Introduction to git comands and basic workflow'
 slug: 'git-introduction'
 date:   2016-09-25 12:01:06 +0300
 categories: git

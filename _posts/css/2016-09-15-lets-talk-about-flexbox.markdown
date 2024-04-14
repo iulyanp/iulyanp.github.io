@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Flexbox introduction - Center a logo on the screen?"
+description: 'Center an image with flexbox'
 slug: 'flexbox-introduction'
 date:   2016-09-15 12:01:06 +0300
 categories: flexbox

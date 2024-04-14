@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Install laravel project in a subdirectory with nginx"
+description: 'Correct way to install laravel project in a subdirectory with nginx'
 slug: 'install-laravel-project-in-subdirectory-with-nginx'
 date:   2022-09-20 12:11:06 +0300
 categories: php

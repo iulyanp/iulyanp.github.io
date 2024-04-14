@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Find the table size in MySQL"
+description: 'Find the table size in MySQL'
 slug: 'find-the-table-size-in-mysql'
 date: 2020-06-12 09:46:00 +0300
 category: database

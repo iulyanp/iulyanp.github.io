@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Code Camp Iasi Oct. 2017"
+description: 'Code Camp Iasi Oct. 2017'
 slug: 'codecamp-iasi-oct-2017'
 date:   2017-10-30 12:01:06 +0300
 category: talks

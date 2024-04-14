@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Use firewalld-cmd to manage your firewall"
+description: 'Use firewalld-cmd to manage your firewall'
 slug: 'firewalld-cmd'
 date:   2019-06-14 12:01:06 +0300
 category: linux

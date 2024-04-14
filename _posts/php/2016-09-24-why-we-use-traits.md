@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why we use traits?"
+description: 'Why we use traits in PHP?'
 slug: 'why-to-use-traits'
 date:   2016-09-24 12:01:06 +0300
 categories: php

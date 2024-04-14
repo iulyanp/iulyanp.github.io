@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First step"
+description: 'First step with Jekyll'
 slug: 'first-step'
 date:   2016-09-13 12:01:06 +0300
 categories: [personal]
