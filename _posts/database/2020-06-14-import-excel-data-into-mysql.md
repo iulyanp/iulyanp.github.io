@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Import Excel data into MySQL"
+description: 'Import Excel data into MySQL'
 slug: 'import-excel-data-into-mysql'
 date: 2020-06-14 12:02:00 +0300
 category: database

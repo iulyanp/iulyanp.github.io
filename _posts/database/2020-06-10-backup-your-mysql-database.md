@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Backup your MySQL database"
+description: 'How to easily backup your MySQL database and sleep well at night'
 slug: 'bacup-your-mysql-database'
 date:   2020-06-10 09:30:00 +0300
 category: database
