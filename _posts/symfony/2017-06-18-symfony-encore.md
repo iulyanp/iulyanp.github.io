@@ -19,8 +19,8 @@ If you used it already, Symfony Encore will look a lot like it.
 
 A few days ago Ryan Weaver the creator of [SymfonyCasts](https://symfonycasts.com/) and a Symfony evangelist, announced
 [Symfony Encore](https://github.com/symfony/webpack-encore) a simple API around Webpack for compiling assets and the
-[Assetic](http://symfony.com/doc/current/assetic.html) replacement.
-The official documentation could be found on [Symfony website](http://symfony.com/doc/current/frontend.html) which in
+[Assetic](https://symfony.com/doc/current/assetic.html) replacement.
+The official documentation could be found on [Symfony website](https://symfony.com/doc/current/frontend.html) which in
 fact is already using Encore.
 
 ## How to install Symfony Encore
