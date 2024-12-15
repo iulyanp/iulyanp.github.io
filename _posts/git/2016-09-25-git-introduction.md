@@ -160,7 +160,7 @@ Until now we've been working with just our own local repository on our computer.
 cloud, so others can use it or collaborate on it. Because git doesn't take care of access control other services as
 Github, Bitbucket or Gitorious have been created. The former one needs to be hosted by you. Mainly what those services
 provide for you is a way to specify that this user has access to just this repository or this group of users have access
-to this repository. I encourage you to use [Github](http://github.com) or [Bitbucket](http://bitbucket.com) as they are
+to this repository. I encourage you to use [Github](https://github.com) or [Bitbucket](https://bitbucket.com) as they are
 hosted services and free for public repositories. Bitbucket is free also for private repositories.
 
 In order for you to share your local repository with other users you should "push" it to, let's say, Github (the most

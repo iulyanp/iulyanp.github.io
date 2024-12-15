@@ -44,7 +44,7 @@ This convention is used to avoid the name colisions between components from diff
 ### How to install a PHP component
 
 A component can have different available versions. Usualy the components are versioned using what we call [semantic 
-versioning](http://semver.org/) scheme. You can find the availabe versions for a component on the Packagist 
+versioning](https://semver.org/) scheme. You can find the availabe versions for a component on the Packagist 
 component page.
 
 ### Semantic versioning
